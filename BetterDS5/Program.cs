@@ -120,14 +120,14 @@ sealed class DualSenseState
     public override string ToString()
     {
         return
-$@"LX: {LeftStickX}  LY: {LeftStickY}
-RX: {RightStickX}  RY: {RightStickY}
-L2: {L2}  R2: {R2}
+            $@"LX: {LeftStickX}  LY: {LeftStickY}
+            RX: {RightStickX}  RY: {RightStickY}
+            L2: {L2}  R2: {R2}
 
-DPad    U:{DpadUp} R:{DpadRight} D:{DpadDown} L:{DpadLeft}
-Face    □:{Square} X:{Cross} O:{Circle} △:{Triangle}
-Top     L1:{L1} R1:{R1} L2B:{L2Button} R2B:{R2Button}
-Middle  Create:{Create} Options:{Options} L3:{L3} R3:{R3}
-System  PS:{PS} Touchpad:{TouchpadButton} Mute:{Mute}";
+            DPad    U:{DpadUp} R:{DpadRight} D:{DpadDown} L:{DpadLeft}
+            Face    □:{Square} X:{Cross} O:{Circle} △:{Triangle}
+            Top     L1:{L1} R1:{R1} L2B:{L2Button} R2B:{R2Button}
+            Middle  Create:{Create} Options:{Options} L3:{L3} R3:{R3}
+            System  PS:{PS} Touchpad:{TouchpadButton} Mute:{Mute}";
     }
 }
